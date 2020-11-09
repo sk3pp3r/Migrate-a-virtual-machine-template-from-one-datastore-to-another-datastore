@@ -1,3 +1,13 @@
+###########################################################
+#    MIGRATE A VIRTUAL MACHINE TEMPLATES FROM ONE DATASTORE TO ANOTHER DATASTORE  
+#
+#   Haim Cohen 
+#   2020
+#   https://github.com/sk3pp3r/Migrate-a-virtual-machine-template-from-one-datastore-to-another-datastore
+#   https://www.linkedin.com/in/haimc/
+#   Version 1.0
+###########################################################
+
 $DS = "{TARGER DS NAME}"
 $template_list = get-template
 foreach ($template in $template_list) {
